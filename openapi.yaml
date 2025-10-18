@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  title: Swiftter API
+  version: "0.1.0"
+paths:
+  /health:
+    get:
+      responses:
+        '200':
+          description: OK
+  /generate:
+    post:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                prompt:
+                  type: string
+      responses:
+        '200':
+          description: Generated text
