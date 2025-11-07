@@ -1,0 +1,8 @@
+{
+  "name": "Swiftter",
+  "short_name": "Swiftter",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "description": "Swiftter – slimme mobiliteit eenvoudig gemaakt"
+}
